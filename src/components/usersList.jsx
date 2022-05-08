@@ -118,6 +118,7 @@ const UsersList = () => {
             <SearchStatus length={count} />
             <div>
               <input
+                placeholder='Поиск... '
                 type="text"
                 value={search}
                 className="w-100 mx-auto"
